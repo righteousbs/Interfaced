@@ -1,0 +1,42 @@
+Interfaced Script: A Plex/Trakt/Pushover Script for use with Jumpy Plugin within Universal Media Server
+
+Description:
+Use this script to interface Plex, Trakt, and Pushover with Universal Media Server with the Jumpy Plugin.
+
+Serve select Plex library video categories with Universal Media Server, scrobble your watched videos back to Plex and Trakt, and send push notifications to Pushover.
+
+Currently supports the following video categories from your Plex library:
+Unwatched
+Recently Added
+
+Plex Media Server-->Interfaced-->Jumpy-->Universal Media Server-->Client (PS3, etc.)
+Client-->Universal Media Server-->Jumpy-->Interfaced-->Plex, Trakt, Pushover
+
+
+Comments:
+The listing of files/folders to the PS3 is not as zippy as I would like, which could be resolved by writing an actual plugin for Universal Media Server, but I just don't have the skill or the time to create one. Enjoy as is.
+
+Devs, feel free to customize the script to suit your own needs, and if you're inclined to morph this into a plugin by all means please do and share. Feedback is always welcome.
+
+
+Usage:
+Install Plex and add videos to your library
+Install Universal (or PS3) Media Server
+Install Jumpy Plugin
+Setup Trakt and/or Pushover Accounts
+Download Interfaced.py, configure Jumpy to point to the script, modify the script per Plex, Trakt, Pushover Account Settings
+Start up Universal/PS3 Media Server
+
+
+Origin Story:
+I am a simple man with simple dreams. I want to maintain a neatly organized media library and I want to easily access my new content on my PS3 without having to drill down all the layers of structured folders.
+
+My media consuming habits have been strewn with many manually intensive processes. I have been retrieving media and storing it in a dedicated new arrival folder, which is served with PS3 Media Server. After I watch the show I move the file to a storage folder and add it to my digital library using TV Rename. This process has taken a toll on me.
+
+So I have finally made the jump and migrated to alternative tools which have proved useful in streamlining my media consumption process. The Interfaced script is the conclusion of this process.  
+
+I am a long time fan of PS3 Media Server and the recently forked Universal Media Server. The tool is extremely versatile at serving all types media content to my PS3, however the only feature that I find lacking is support for functional media library indexing.
+
+Plex is an excellent media library host and indexing tool and it happens to support DLNA.  After using Plex for a few weeks I just cant get enough of the various indexing options available (Recently Added, Watched, On Deck, etc.), I just wish the Plex DLNA playback on the PS3 was better (Plex transcodes my media even when PS3 can natively play it).
+
+So I decided that marrying the two provided the best solution that satisfies my nit-picky needs.  This script is my attempt to solving a long sought after solution to a versatile Media Library and Media Server system. This has made my life easier, maybe it will do the same for you.
