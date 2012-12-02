@@ -1,30 +1,24 @@
 Interfaced Script: A Plex/Trakt/Pushover Script for use with Jumpy Plugin within Universal Media Server
 
 Description:
-Use this script to interface Plex, Trakt, and Pushover with Universal Media Server with the Jumpy Plugin.
+Use this script to interface Plex, Trakt, and Pushover with Universal Media Server through the Jumpy Plugin.
 
-Serve select Plex library video categories with Universal Media Server, scrobble your watched videos back to Plex and Trakt, and send push notifications to Pushover.
+Serve your Plex library within Universal Media Server, scrobble your watched videos back to Plex and Trakt, and send push notifications to Pushover.
 
-Currently supports the following video categories from your Plex library:
-Unwatched
-Recently Added
+Publishes the entire Plex library including all Plex supported media filters, as well as a couple of personalized custom filters (All Unwatched Videos, All Recently Added Videos).
 
 Plex Media Server-->Interfaced-->Jumpy-->Universal Media Server-->Client (PS3, etc.)
 Client-->Universal Media Server-->Jumpy-->Interfaced-->Plex, Trakt, Pushover
 
-
-Comments:
-The listing of files/folders to the PS3 is not as zippy as I would like, which could be resolved by writing an actual plugin for Universal Media Server, but I just don't have the skill or the time to create one. Enjoy as is.
-
-Devs, feel free to customize the script to suit your own needs, and if you're inclined to morph this into a plugin by all means please do and share. Feedback is always welcome.
-
-
 Usage:
-Install Plex and add videos to your library
+Install Plex and media to your library
 Install Universal (or PS3) Media Server
 Install Jumpy Plugin
 Setup Trakt and/or Pushover Accounts
-Download Interfaced.py, configure Jumpy to point to the script, modify the script per Plex, Trakt, Pushover Account Settings
+Download Interfaced.py, modify the script per Plex, Trakt, Pushover Account Settings
+Configure jumpy-scripts.ini with the following: 
+   [Interfaced]
+   cmd = "YOURPATHTOTHESCRIPT\Interfaced.py"
 Start up Universal/PS3 Media Server
 
 
